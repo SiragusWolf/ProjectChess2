@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b74e92870ede15419c2cb663a21a54d, type: 3}
+  m_Name: NewEnemySpawnerData
+  m_EditorClassIdentifier: 
+  turnsBetweenSpawn: 2
+  enemyPrefabs:
+  - {fileID: 3269820389077361276, guid: 8702a1ffc8f33b144883e0a718e0b9ca, type: 3}
+  - {fileID: 6294745581531845877, guid: 6901ef7508c69554dafc0940132f2d67, type: 3}
+  - {fileID: 5060077312730132704, guid: 066999a4f5a90a146881f0bafbdbe740, type: 3}
+  - {fileID: 2274825809476847676, guid: 71f039af78fd609428510b368cc04a42, type: 3}
+  - {fileID: 5019329835541422917, guid: 1acab8f41a7cbad4aab9422f0ccb21d0, type: 3}
+  - {fileID: 5690224412577292317, guid: 712f78aa7f8f9c543b760322ed5efd61, type: 3}
+  activationRadius: 12
